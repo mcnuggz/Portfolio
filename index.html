@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>the webb space</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="navbar navbar-default navbar-fixed-top" id="banner">
+        <div class="container">
+            <a class="scroll" href="#top"><span id="containerText">the webb space</a>
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <nav class="collapse navbar-collapse" id="navbar" role="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="scroll" href="#top">About</a></li>
+                    <li><a class="scroll" href="#portfolio">Portfolio</a></li>
+                    <li><a class="scroll" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+    <a id="top" name="home"></a>
+    <main>
+        <header>
+            <img src="http://oi66.tinypic.com/a2umwh.jpg" alt="Picture of Ryan" />
+            <div class="introText">
+                <p>Developer with a devotion to functional programming, information technology and video games</p>
+                <hr class="introHR" />
+                <span class="skills">Full-Stack Web Developer - Gamer</span>
+            </div>
+        </header>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <hr class="bodyHR" />
+            <ul class="grid">
+                <li><img src="https://i.pinimg.com/originals/6d/28/67/6d28670a9ce687906728149f4f978ccc.jpg" alt="" /></li>
+                <li><img src="https://i.pinimg.com/originals/6d/28/67/6d28670a9ce687906728149f4f978ccc.jpg" alt="" /></li>
+                <li><img src="https://i.pinimg.com/originals/6d/28/67/6d28670a9ce687906728149f4f978ccc.jpg" alt="" /></li>
+                <li><img src="https://i.pinimg.com/originals/6d/28/67/6d28670a9ce687906728149f4f978ccc.jpg" alt="" /></li>
+                <li><img src="https://i.pinimg.com/originals/6d/28/67/6d28670a9ce687906728149f4f978ccc.jpg" alt="" /></li>
+                <li><img src="https://i.pinimg.com/originals/6d/28/67/6d28670a9ce687906728149f4f978ccc.jpg" alt="" /></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <hr class="bodyHR" />
+            <div>
+                <form id="contactForm" novalidate="">
+                    <div class="form-item">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="Enter your name please" required="" />
+                    </div>
+                    <div class="form-item">
+                        <label for="email">Email Address</label>
+                        <input id="email" type="email" placeholder="Enter your email please" required="" />
+                    </div>
+                    <div class="form-item">
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" type="tel" placeholder="Enter your phone please" required="" />
+                    </div>
+                    <div class="form-item">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Enter your message please" required=""></textarea>
+                    </div>
+                    <br />
+                    <button type="submit">Send</button>
+                </form>
+                <div>
+                    <p>Want to get in touch with me? Be it a request for more information about myself or my experience, tips on how to beat that section in a video you've been struggling with, random questions about the meaning of life... feel free to drop me a line at anytime! I'll do my best to reply ASAP!</p>
+                    <p>Note: No spam or solicitating please! Thanks!</p>
+                </div>
+            </div>
+        </section>
+        <!-- scroll to top button on small screens -->
+        <div class="scroll-top"><a class="button scroll" href="#top"><i class="fa fa-chevron-up"></i></a></div>
+        <!-- https://coolors.co/e59f71-ba5a31-0c0c0c-69dc9e-ffffff -->
+    </main>
+    <!-- footer -->
+    <footer>
+        <div id="footer-below">
+            <span>
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>. All Rights Reserved.
+            </span>
+            <ul>
+                <li><a class="button social" href="https://www.linkedin.com/in/ryan-webb-828317a4/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a class="button social" href="https://github.com/mcnuggz" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                <li><a class="button social" href="https://steamcommunity.com/id/nukkafish45" target="_blank"><i class="fa fa-steam-square" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
